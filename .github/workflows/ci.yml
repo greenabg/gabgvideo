@@ -15,9 +15,15 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Install Python
-        uses: actions/setup-python@v2
-        with:
-          python-version: '3.4.10'
+        run: |
+          mkdir python
+          cd python
+          wget https://github.com/actions/python-versions/releases/download/3.4.10/python-3.4.10-linux-18.04-x64.tar.gz
+          gzip -d -v python-3.4.10-linux-18.04-x64.tar.gz
+          tar -xvf python-3.4.10-linux-18.04-x64.tar
+          rm -v python-3.4.10-linux-18.04-x64.tar
+          chmod +x setup.sh
+          ./setup.sh
 
       - name: Install hugo
         run: brew install hugo
