@@ -14,16 +14,38 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
 
+      - name: Install Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.4.10'
+
       - name: Install hugo
         run: brew install hugo
 
       - name: Build site and minify it
         run: hugo --minify
         
-      - name: Deploy to GitHub pages
+      - name: Deploy to GitHub Pages
         uses: s0/git-publish-subdir-action@develop
         env:
           REPO: self
           BRANCH: gh-pages
           FOLDER: public
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Wait for the new site to be actualy deployed by Github Pages
+        uses: jakejarvis/wait-action@v0.1.0
+        with:
+          time: '30s'
+
+      - name: Save to WayBack Machine
+        run: |
+          # Install
+          git clone https://github.com/agude/wayback-machine-archiver.git
+          cd wayback-machine-archiver
+          pip install -r requirements.txt
+          ./setup.py install
+          cd ..
+          # Save
+          archiver --sitemaps https://greenabg.github.io/gabgvideo/sitemap.xml --archive-sitemap-also --log INFO
+
