@@ -39,14 +39,14 @@ jobs:
         with:
           time: '30s'
 
-      - name: Save to WayBack Machine
-        run: |
-          # Install
-          git clone https://github.com/agude/wayback-machine-archiver.git
-          cd wayback-machine-archiver
-          pip install -r requirements.txt
-          sudo ./setup.py install
-          cd ..
-          # Save
-          archiver --sitemaps https://greenabg.github.io/gabgvideo/sitemap.xml --archive-sitemap-also --log INFO
+      #- name: Save to WayBack Machine
+      #  run: |
+      #    # Install
+      #    git clone https://github.com/agude/wayback-machine-archiver.git
+      #    cd wayback-machine-archiver
+      #    pip install -r requirements.txt
+      #    sudo ./setup.py install
+      #    cd ..
+      #    # Save
+      #    archiver --sitemaps https://greenabg.github.io/gabgvideo/sitemap.xml --archive-sitemap-also --log INFO
 
