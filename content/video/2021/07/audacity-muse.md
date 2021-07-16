@@ -4,6 +4,10 @@ date: 2021-07-15T00:25:00+02:00
 draft: false
 ---
 
+# Correzioni
++ 00:55 - La data di rilascio non è il 2 giugno ma il 2 luglio
++ 00:58 - La versione rilasciata non è 3.3.3 ma 3.0.0
+
 # Pagine web
 
 + [Repo di Audacity](https://github.com/audacity/audacity)
