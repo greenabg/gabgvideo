@@ -21,3 +21,8 @@ draft: false
 + [Issue di GitHub di Cookie Engineer*](https://web.archive.org/web/20210714215157/https://github.com/tenacityteam/tenacity/issues/99)
 
 *al momento di registrazione
+
+# Musiche
++ Intro: [Vincent Tone - Inspire Action](https://www.premiumbeat.com/royalty-free-tracks/inspire-action) (versione da 15 secondi)
++ 0:42 - 3:48: [Future Joust - On The Knife](https://www.epidemicsound.com/track/n5hSSdFiGy/)
++ Ountro: [Berry Deep - Fly Like The Wind](https://www.premiumbeat.com/royalty-free-tracks/fly-like-the-wind) (versione da 15 secondi)
