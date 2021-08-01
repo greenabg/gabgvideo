@@ -5,6 +5,7 @@ draft: false
 ---
 
 # Correzioni
+
 + 00:55 - La data di rilascio non è il 2 giugno ma il 2 luglio
 + 00:58 - La versione rilasciata non è 3.3.3 ma 3.0.0
 
@@ -23,6 +24,7 @@ draft: false
 *al momento di registrazione
 
 # Musiche
-+ Intro: [Vincent Tone - Inspire Action](https://www.premiumbeat.com/royalty-free-tracks/inspire-action) (versione da 15 secondi)
+
++ Sigla: [Vincent Tone - Inspire Action](https://www.premiumbeat.com/royalty-free-tracks/inspire-action) (versione da 15 secondi)
 + 0:42 - 3:48: [Future Joust - On The Knife](https://www.epidemicsound.com/track/n5hSSdFiGy/)
 + Ountro: [Berry Deep - Fly Like The Wind](https://www.premiumbeat.com/royalty-free-tracks/fly-like-the-wind) (versione da 15 secondi)
