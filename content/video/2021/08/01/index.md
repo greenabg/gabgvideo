@@ -8,7 +8,7 @@ tags:
  - windows
 ---
 
-# Correzzioni
+# Correzioni
 
 + 01:22 - Il comando non è `Add-AppxPackage {nome}` ma `Add-AppxPackage -Path {nome}`
 
