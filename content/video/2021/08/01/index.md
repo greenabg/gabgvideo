@@ -26,5 +26,3 @@ tags:
 + Sigla: [Vincent Tone - Inspire Action](https://www.premiumbeat.com/royalty-free-tracks/inspire-action) (versione da 15 secondi)
 + 00:26 - 03:06 - [Winx Club - Cosmic Winx (versione inglese)](https://www.youtube.com/watch?v=PtnSOFdsSo8)
 + 03:06 - 05:11 (ountro) - [Winx Club - Cosmix Winx (versione italiana)](https://www.youtube.com/watch?v=7uJJppB5Wno)
-  
-  
